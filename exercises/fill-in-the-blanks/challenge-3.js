@@ -3,10 +3,10 @@ const name = 'f.i.t.b: challenge 3';
 const challenge3 = (value) => new Promise(
   (res, rej) => {
     setTimeout(() => {
-      if (_) {
-        _;
-      } else {
-        _;
+      if (value > 30) {
+        res(value);
+      } else if (value <= 30 ) {
+        rej(value);
       };
     }, 0)
   })
